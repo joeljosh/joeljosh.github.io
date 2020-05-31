@@ -1,14 +1,8 @@
-.preload * {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
-  }
 
 body{
     
     background-image: url("../assets/main.jpg");     
-    font-family: "Roboto Condensed", cursive;
+    font-family: "sans-serif";
     color: #fff;
     
     
