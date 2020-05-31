@@ -15,7 +15,7 @@
     <link rel="icon" href="assets/j.jpg">
     <title>Joel J</title>
   </head>
-  <body>
+  <body class="preload">
 
     <div class="header">
         <nav class="navbar navbar-expand-sm fixed-top py-3">
@@ -95,6 +95,9 @@
           });
       });
       
+      $(window).load(function() {
+        $("body").removeClass("preload");
+      });
       </script>
       
   </body>
