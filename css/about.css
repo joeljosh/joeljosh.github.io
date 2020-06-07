@@ -40,7 +40,7 @@ h1,h2,h3,h4,h5,h6{ line-height: 1.5; font-weight: inherit; }
 
 h1,h2,h3{ font-family: "sans-serif"; }
 
-p{ line-height: 1.6; font-size: 1em; font-weight: 400; color: #343b44; }
+p{ line-height: 1.6; font-size: 1.2em; font-weight: 400; color: #343b44; }
 
 h1{ font-size: 4em; line-height: 1; }
 h2{ font-size: 2.2em; line-height: 1.1; }
@@ -146,10 +146,6 @@ h5
   color: #C3CAD0;
 }
 
-p
-{
-  font-size:16px;
-}
 
 .center
 {
@@ -164,7 +160,7 @@ p
 
 .property-card
 {
-  height:22em;
+  height:24em;
   width:16em;
   display:-webkit-box;
   display:-ms-flexbox;
@@ -191,7 +187,7 @@ p
 }
 .property-image
 {
-  height:8em;
+  height:10em;
   width:16em;
   padding:1em 2em;
   position:Absolute;
@@ -201,7 +197,7 @@ p
   transition:all 0.4s cubic-bezier(0.645, 0.045, 0.355, 1);
   background-image:url('../assets/projects.jpg');
   background-size:cover;
-  background-repeat:no-repeat;
+  
 }
 
 /* Bottom Card Section */
